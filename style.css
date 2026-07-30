@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Colonização do Oeste do Paraná</title>
+
+
+    <style>
+
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color:#f4f1e6;
+            margin:0;
+        }
+
+        header{
+            background-color:#2e7d32;
+            color:white;
+            text-align:center;
+            padding:20px;
+        }
+
+        nav{
+            background-color:#4caf50;
+            text-align:center;
+            padding:12px;
+        }
+
+        nav a{
+            color:white;
+            text-decoration:none;
+            font-weight:bold;
+            margin:15px;
+        }
+
+        nav a:hover{
+            color:yellow;
+        }
+
+        section{
+            background:white;
+            width:80%;
+            margin:25px auto;
+            padding:20px;
+            border-radius:10px;
+            box-shadow:2px 2px 8px gray;
+            text-align:center;
+        }
+        h1{
+    font-size: 64px;
+}
+
+        h2{
+            color:#2e7d32;
+        }
+
+        p{
+            text-align:center;
+            line-height:1.6;
+            font-size: 20px;
+        }
+
+        img{
+            width:70%;
+            max-width:600px;
+            border-radius:10px;
+            border:3px solid #2e7d32;
+        }
+
+        .galeria img{
+            width:250px;
+            margin:10px;
+        }
+
+        footer{
+            background:#2e7d32;
+            color:white;
+            text-align:center;
+            padding:15px;
+            margin-top:30px;
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+<header>
+
+    <h1>Colonização do Oeste do Paraná</h1>
+    <p>Conhecendo a história da nossa região.</p>
+
+</header>
+
+<nav>
+
+    <a href="#GEOGRAFIA">Migrações</a>
+
+    <a href="#ARTE">Paisagem</a>
+
+    <a href="#HISTÓRIA">Galeria</a>
+
+</nav>
+
+<section id="GEOGRAFIA">
+
+    <h2>Fluxos Migratórios</h2>
+
+    <img src="imagens/mapa.jpg" alt="Mapa das migrações">
+
+    <p>
+
+        O Oeste do Paraná recebeu migrantes principalmente do
+        Rio Grande do Sul, Santa Catarina, São Paulo e Minas Gerais.
+        Esses grupos participaram da ocupação e do desenvolvimento
+        econômico da região.
+
+    </p>
+
+</section>
+
+<section id="ARTE">
+
+    <h2>Transformação da Paisagem</h2>
+
+    <img src="imagens/paisagem.jpg" alt="Paisagem">
+    <img src="imagens/trabalho1.jpeg" alt="Trabalho 1">
+    <img src="imagens/trabalho2.jpeg" alt="Trabalho 2">
+    <img src="imagens/trabalho3.jpeg" alt="Trabalho 3">
+    <p>
+
+        A chegada dos colonizadores modificou profundamente a paisagem,
+        substituindo parte das florestas por cidades, estradas e áreas
+        destinadas à agricultura.
+
+    </p>
+
+</section>
+
+<section id="HISTÓRIA">
+
+    <h2>Trabalhos dos Alunos</h2>
+
+    <div class="galeria">
+
+        <img src="imagens/trabalho1.jpeg" alt="Trabalho 1">
+
+        <img src="imagens/trabalho2.jpeg" alt="Trabalho 2">
+
+        <img src="imagens/trabalho3.jpeg" alt="Trabalho 3">
+
+    </div>
+
+</section>
+
+<footer>
+
+    <p>Projeto de Geografia - Professor Maicol Bade</p>
+
+</footer>
+
+</body>
+
+</html>
