@@ -76,7 +76,7 @@
 
         footer{
             background:1b561e#113f13;
-            color:white;
+            color:rgb(3, 61, 0);
             text-align:center;
             padding:15px;
             margin-top:30px;
@@ -86,7 +86,7 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 15px;
-    max-width: 1150px;
+    max-width: 1250px;
     margin: 20px auto;
 }
 
@@ -172,7 +172,7 @@
 
 <footer>
 
-    <p>Projeto de Geografia - Professor Maicol Bade</p>
+    <p>Projeto de Educação Digital, Arte, História e Geografia - Professores: Karina - Lauremi - Maicol</p>
 
 </footer>
 
